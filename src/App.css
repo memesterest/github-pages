@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #242526;
+  padding: 20px;
+  border-bottom: 1px solid #3f3f40;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app > Button {
+  color: white;
+}
+
+.app__signUp {
+  display: flex;
+  
+  flex-direction: column;
+}
+
+.app__signIn {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__loginContainer {
+  display: flex;
+  align-items: center;
+}
+
+.app__loginContainer > h4 {
+  margin-bottom: 6px;
+  margin-right: 10px;
+  font-weight: 800;
+}
+
+.app__loginContainer > button {
+  color: white;
+  font-weight: 800;
+}
+
+.app__loginContainer > button:hover {
+  color: black;
+  background-color: white;
+}
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__postsRight {
+  margin-left: 10px;
+}
+
+.imageupload__btn {
+  color: white;
+}

@@ -1,0 +1,53 @@
+.imageupload {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.imageupload__caption {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    color: black;
+    margin-bottom: 3px;
+}
+
+.imageupload__button {
+    color: black;
+    background: white;
+}
+
+.imageupload__button:hover {
+    color: white;
+    background-color: black;
+}
+
+.imageupload__main {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageupload__usernameColor {
+    margin-top: 5px;
+    display: flex;
+}
+
+.imageupload__usernameColor > h3 {
+    margin-right: 10px;
+    font-weight: 800;
+}
+.imageupload__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageupload__logo > h3 {
+    margin-right: 15px;
+}

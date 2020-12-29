@@ -1,0 +1,123 @@
+.post__image {
+    width: 100%;
+    object-fit: contain;
+    margin-right: 10px;
+    border-top: 1px solid #3f3f40;
+    border-bottom: 1px solid #3f3f40;
+}
+
+.post__text {
+    font-weight: normal;
+    padding: 15px;
+}
+
+.post {
+    max-width: 500px;
+    background-color: #252526;
+    border: 1px solid #3f3f40;
+    margin-bottom: 45px;
+}
+
+.post__header {
+    object-fit: contain;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.post__commentBox {
+    display: flex;
+    margin-top: 10px;
+}
+
+.post__input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid #3f3f40;
+    background-color: transparent;
+    color: white;
+}
+
+.post__button:enabled {
+    flex: 0;
+    border: none;
+    border-top: 1px solid #3f3f40;
+    background: transparent;
+    color: lightskyblue;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.post__button:disabled {
+    flex: 0;
+    border: none;
+    border-top: 1px solid #3f3f40;
+    background: transparent;
+    color: darkgray;
+    font-weight: 800;
+}
+
+.post__comments {
+    border-top: 1px solid #3f3f40;
+    padding: 15px;
+}
+
+.post__comment__text {
+    font-weight: 800;
+    background-color: gray;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.post__captionTitle {
+    font-weight: 800;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.post__like {
+    margin-left: 10px;
+    margin-top: 5px;
+    color:white;
+    padding: 4px;
+}
+
+.post__like:hover {
+    color: red;
+    cursor: pointer;
+    background-color: #3f3f40;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.post__save {
+    margin-left: 10px;
+    margin-top: 5px;
+    color:white;
+    padding: 4px;
+}
+
+.post__save:hover {
+    color: lime;
+    cursor: pointer;
+    background-color: #3f3f40;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.post__infoRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.post__likes {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.post__likesDiv {
+    display: flex;
+}
